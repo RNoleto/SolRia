@@ -1,0 +1,91 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@500;600;700;800&display=swap');
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Variables */
+:root{
+    /* Fonts */
+    --title-font:'Poppins', sans-serif;
+    --title-destaque:'Allura', sans-serif;
+
+    /* Colors */
+    --background-color:#F2E1AE;
+    --base-color:#F28705;
+    --second-color:#8C4830;
+
+}
+
+/* BASE */
+body{
+    background-color: var(--background-color);
+    -webkit-font-smoothing: antialiased;
+    text-align: justify;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.section{
+    padding: 1rem 0;
+}
+
+.container{
+    margin: 0 1.5rem;
+}
+
+.divider-1 {
+    height: 1px;
+    background: linear-gradient(
+      270deg,
+      hsla(45, 72%, 82%, 100%),
+      hsla(33, 96%, 48%, 100%)
+    );
+  }
+  
+  .divider-2 {
+    height: 1px;
+    background: linear-gradient(
+      270deg,
+      hsla(33, 96%, 48%, 100%),
+      hsla(45, 72%, 82%, 100%)
+    );
+}
+
+.title{
+    color: var(--base-color);
+}
+
+.destaque{
+    font: 400 2.5rem var(--title-destaque);
+}
+
+.text{
+    color: var(--second-color);
+}
+/* HEADER */
+header{
+    padding: 1rem;
+}
+.header h1{
+    font: 600 1.5rem var(--title-font);
+}
